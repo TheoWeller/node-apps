@@ -1,7 +1,10 @@
-const add = require('./utils.js')
+const getNotes = require('./getNotes.js')
+console.log(getNotes('Who let the dogs out?'))
 
-console.log(add(419, 1))
 
+
+//const add = require('./utils.js')
+//console.log(add(419, 1))
 //const fs = require('fs');
 //fs.writeFileSync('notes.txt', 'TEST!');
 //fs.appendFileSync('notes.txt', ' Append test.')
